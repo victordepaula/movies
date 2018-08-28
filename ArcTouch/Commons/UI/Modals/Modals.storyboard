@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham Book Regular.otf">
+            <string>Gotham-Book</string>
+        </array>
+        <array key="NotoSans-Regular.ttf">
+            <string>NotoSans-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Bottom Alert View Controller-->
+        <scene sceneID="vN8-z2-Wsg">
+            <objects>
+                <viewController storyboardIdentifier="BottomAlertController" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Duc-nt-qj2" customClass="BottomAlertViewController" customModule="ArcTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gZU-Gv-ohN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6AL-aU-wGh" userLabel="Alert Content Container View">
+                                <rect key="frame" x="0.0" y="544" width="375" height="123"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yYD-eb-CG7" userLabel="Buttons Stack View">
+                                        <rect key="frame" x="0.0" y="79" width="375" height="44"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwY-9E-ttU" customClass="AccentButton" customModule="BIIS_Usuario" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="44"/>
+                                                <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="15"/>
+                                                <state key="normal" title="Left Button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="leftButtonTapped:" destination="Duc-nt-qj2" eventType="touchUpInside" id="ebY-SB-PdV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1f-Un-3zW" customClass="AccentButton" customModule="BIIS_Usuario" customModuleProvider="target">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="44"/>
+                                                <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="15"/>
+                                                <state key="normal" title="Right Button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="rightButtonTapped:" destination="Duc-nt-qj2" eventType="touchUpInside" id="XQH-kD-UAX"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="294-yD-VNa"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="BRC-8P-Sgg" customClass="LightLabel" customModule="BIIS_Usuario" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="0.0" width="355" height="64"/>
+                                        <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="17"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="yYD-eb-CG7" firstAttribute="top" secondItem="BRC-8P-Sgg" secondAttribute="bottom" constant="15" id="8br-Pi-IGd"/>
+                                    <constraint firstAttribute="trailing" secondItem="yYD-eb-CG7" secondAttribute="trailing" id="Bkz-OO-rwv"/>
+                                    <constraint firstItem="yYD-eb-CG7" firstAttribute="leading" secondItem="6AL-aU-wGh" secondAttribute="leading" id="Ik8-T2-1KN"/>
+                                    <constraint firstItem="BRC-8P-Sgg" firstAttribute="top" secondItem="6AL-aU-wGh" secondAttribute="top" id="bOA-a9-ggg"/>
+                                    <constraint firstItem="BRC-8P-Sgg" firstAttribute="leading" secondItem="6AL-aU-wGh" secondAttribute="leading" constant="10" id="cGw-Fj-Hdy"/>
+                                    <constraint firstAttribute="trailing" secondItem="BRC-8P-Sgg" secondAttribute="trailing" constant="10" id="qqY-Wc-NKP"/>
+                                    <constraint firstAttribute="bottom" secondItem="yYD-eb-CG7" secondAttribute="bottom" id="rE5-Mc-3hL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6AL-aU-wGh" firstAttribute="leading" secondItem="ZaI-mv-8Es" secondAttribute="leading" id="3eL-e3-mOf"/>
+                            <constraint firstItem="6AL-aU-wGh" firstAttribute="trailing" secondItem="ZaI-mv-8Es" secondAttribute="trailing" id="NzG-F8-5Sk"/>
+                            <constraint firstItem="ZaI-mv-8Es" firstAttribute="bottom" secondItem="6AL-aU-wGh" secondAttribute="bottom" id="Y3s-YV-8BF"/>
+                            <constraint firstItem="6AL-aU-wGh" firstAttribute="height" secondItem="gZU-Gv-ohN" secondAttribute="height" multiplier="0.3" constant="-77.099999999999994" id="wKy-15-NBW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZaI-mv-8Es"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="leftButton" destination="GwY-9E-ttU" id="HKc-1d-ffc"/>
+                        <outlet property="rightButton" destination="q1f-Un-3zW" id="kQg-s7-TN2"/>
+                        <outlet property="textLabel" destination="BRC-8P-Sgg" id="bWV-Ez-TnT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QGm-yt-tN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="863" y="-116"/>
+        </scene>
+    </scenes>
+</document>

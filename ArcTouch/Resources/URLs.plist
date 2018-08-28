@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>movieView</key>
+	<string>movie/{movie_id}/videos?api_key={api_key}&amp;language=en-US</string>
+	<key>movieByGenre</key>
+	<string>discover/movie?api_key=1f54bd990f1cdfb230adb312546d765d&amp;sort_by=popularity.desc&amp;with_genres={genres_id}</string>
+	<key>listGenre</key>
+	<string>genre/movie/list?api_key={api_key}&amp;language={language}</string>
+	<key>movieById</key>
+	<string>movie/{movie_id}?api_key={api_key}&amp;language={language}</string>
+	<key>upComingMovies</key>
+	<string>movie/upcoming?api_key={api_key}&amp;language={language}&amp;page={page}</string>
+	<key>detailsTv</key>
+	<string>tv/{tv_id}?api_key={api_key}&amp;language={language}</string>
+	<key>apiKey</key>
+	<string>1f54bd990f1cdfb230adb312546d765d</string>
+	<key>moviesRecomended</key>
+	<string>movie/popular?api_key={api_key}&amp;language={language}&amp;page={page}
+</string>
+	<key>movies</key>
+	<string>search/movie?api_key={api_key}&amp;language={language}&amp;query={query}&amp;page={page}&amp;include_adult=false</string>
+	<key>baseUrl</key>
+	<string>https://api.themoviedb.org/3/</string>
+</dict>
+</plist>

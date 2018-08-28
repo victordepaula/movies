@@ -7,14 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E1B38685C907FD1E7C65EB /* Pods_ArcTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09A2D194065CB7CE8DFB06C /* Pods_ArcTouch.framework */; };
+		5725BF912134D61600C0FFDD /* GenreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725BF902134D61600C0FFDD /* GenreResponse.swift */; };
+		5725BF932134DB2900C0FFDD /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725BF922134DB2900C0FFDD /* DictionaryExtension.swift */; };
 		573C3139212FA4A80013ADF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3138212FA4A80013ADF6 /* AppDelegate.swift */; };
-		573C313B212FA4A80013ADF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C313A212FA4A80013ADF6 /* ViewController.swift */; };
-		573C313E212FA4A80013ADF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C313C212FA4A80013ADF6 /* Main.storyboard */; };
+		573C313E212FA4A80013ADF6 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C313C212FA4A80013ADF6 /* MainTabBar.storyboard */; };
 		573C3141212FA4A80013ADF6 /* ArcTouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 573C313F212FA4A80013ADF6 /* ArcTouch.xcdatamodeld */; };
 		573C3143212FA4AA0013ADF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573C3142212FA4AA0013ADF6 /* Assets.xcassets */; };
 		573C3146212FA4AA0013ADF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C3144212FA4AA0013ADF6 /* LaunchScreen.storyboard */; };
 		573C3151212FA4AA0013ADF6 /* ArcTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3150212FA4AA0013ADF6 /* ArcTouchTests.swift */; };
 		573C315C212FA4AB0013ADF6 /* ArcTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C315B212FA4AB0013ADF6 /* ArcTouchUITests.swift */; };
+		573C3171212FA5580013ADF6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3170212FA5580013ADF6 /* Service.swift */; };
+		573C3173212FA6290013ADF6 /* ServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3172212FA6290013ADF6 /* ServiceResponse.swift */; };
+		573C3175212FA65A0013ADF6 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3174212FA65A0013ADF6 /* ServiceError.swift */; };
+		573C3177212FA6A60013ADF6 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3176212FA6A60013ADF6 /* JSON.swift */; };
+		573C317A212FA6EB0013ADF6 /* JSONAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3179212FA6EB0013ADF6 /* JSONAny.swift */; };
+		573C317D212FA7320013ADF6 /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C317C212FA7320013ADF6 /* EncodableExtension.swift */; };
+		573C317F212FA7B70013ADF6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C317E212FA7B70013ADF6 /* StringExtension.swift */; };
+		573C3181212FA84D0013ADF6 /* JSONAny+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3180212FA84D0013ADF6 /* JSONAny+Codable.swift */; };
+		573C3183212FA88A0013ADF6 /* JSONError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3182212FA88A0013ADF6 /* JSONError.swift */; };
+		573C3185212FA8CD0013ADF6 /* JSONAny+Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3184212FA8CD0013ADF6 /* JSONAny+Initialization.swift */; };
+		573C3187212FABDD0013ADF6 /* MoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3186212FABDD0013ADF6 /* MoviesResponse.swift */; };
+		573C3189212FADD20013ADF6 /* URLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573C3188212FADD20013ADF6 /* URLs.plist */; };
+		573C318B212FAF110013ADF6 /* URLInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C318A212FAF110013ADF6 /* URLInfo.swift */; };
+		573C3190212FB0FF0013ADF6 /* MoviesServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C318F212FB0FF0013ADF6 /* MoviesServices.swift */; };
+		573C3196212FB2C90013ADF6 /* Movies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C3195212FB2C90013ADF6 /* Movies.storyboard */; };
+		573C3198212FB2D40013ADF6 /* MoviesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3197212FB2D40013ADF6 /* MoviesRouter.swift */; };
+		573C319A212FB2F60013ADF6 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C3199212FB2F60013ADF6 /* MoviesViewModel.swift */; };
+		57D05601212FB4EC0000C804 /* ApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05600212FB4EC0000C804 /* ApplicationRouter.swift */; };
+		57D05604212FB58C0000C804 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05603212FB58C0000C804 /* MoviesViewController.swift */; };
+		57D05606212FB6C00000C804 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05605212FB6C00000C804 /* Extension+UIView.swift */; };
+		57D05608212FB7060000C804 /* LoadingConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05607212FB7060000C804 /* LoadingConvenience.swift */; };
+		57D0560B212FBF850000C804 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0560A212FBF850000C804 /* Session.swift */; };
+		57D0560D212FC0AC0000C804 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0560C212FC0AC0000C804 /* TokenResponse.swift */; };
+		57D056102130C4DA0000C804 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0560F2130C4DA0000C804 /* UPCarouselFlowLayout.swift */; };
+		57D056162130D0310000C804 /* TopRatedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D056152130D0310000C804 /* TopRatedTableViewCell.swift */; };
+		57D056182130D0840000C804 /* TopRatedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D056172130D0840000C804 /* TopRatedCollectionViewCell.swift */; };
+		57D0561A2130D0FB0000C804 /* AnotherMoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D056192130D0FB0000C804 /* AnotherMoviesTableViewCell.swift */; };
+		57D0561C2130D1890000C804 /* AnotherMovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0561B2130D1890000C804 /* AnotherMovieCollectionViewCell.swift */; };
+		57D0561E2130DABA0000C804 /* UICollectionViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0561D2130DABA0000C804 /* UICollectionViewCellExtensions.swift */; };
+		57D056202130DB0D0000C804 /* UITableViewCelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0561F2130DB0D0000C804 /* UITableViewCelExtension.swift */; };
+		57D056272131A1810000C804 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D056262131A1810000C804 /* MainTabBarController.swift */; };
+		57D05629213313260000C804 /* SearchMovies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D05628213313260000C804 /* SearchMovies.storyboard */; };
+		57D0562B213313320000C804 /* DetailsMovies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0562A213313320000C804 /* DetailsMovies.storyboard */; };
+		57D0562E213314D00000C804 /* SearchMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0562D213314D00000C804 /* SearchMoviesViewController.swift */; };
+		57D056302133223E0000C804 /* MoviesSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0562F2133223E0000C804 /* MoviesSearchCollectionViewCell.swift */; };
+		57D0563221332B7B0000C804 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0563121332B7B0000C804 /* UICollectionViewExtension.swift */; };
+		57D0563B213337050000C804 /* Modals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0563A213337050000C804 /* Modals.storyboard */; };
+		57D0563E213337730000C804 /* BottomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0563D213337730000C804 /* BottomAlertViewController.swift */; };
+		57D05640213338010000C804 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0563F213338010000C804 /* UIViewControllerExtension.swift */; };
+		57D05643213371300000C804 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05642213371300000C804 /* UIImageExtension.swift */; };
+		57D05645213374720000C804 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05644213374720000C804 /* DetailsViewController.swift */; };
+		57D0564B213399220000C804 /* MoviesDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0564A213399220000C804 /* MoviesDetailsResponse.swift */; };
+		57D0564E2133A72F0000C804 /* VideoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0564D2133A72F0000C804 /* VideoResponse.swift */; };
+		57D056502133BF9A0000C804 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0564F2133BF9A0000C804 /* DateExtension.swift */; };
+		57EB9E62213493AE00615C98 /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB9E61213493AE00615C98 /* UISearchBarExtension.swift */; };
+		C54DCF1DE7558D98C8286212 /* Pods_ArcTouchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FCF7258FD85627C57A00AF /* Pods_ArcTouchUITests.framework */; };
+		D373CC9EBA047C09C161637A /* Pods_ArcTouchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA7F18F2019EAC4765579DA /* Pods_ArcTouchTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +84,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F53DE55532CACC4359133F /* Pods-ArcTouchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouchTests/Pods-ArcTouchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F6F74ABF4EDD4B470872047 /* Pods-ArcTouchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouchUITests/Pods-ArcTouchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5725BF902134D61600C0FFDD /* GenreResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreResponse.swift; sourceTree = "<group>"; };
+		5725BF922134DB2900C0FFDD /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		573C3135212FA4A80013ADF6 /* ArcTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573C3138212FA4A80013ADF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		573C313A212FA4A80013ADF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		573C313D212FA4A80013ADF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573C313D212FA4A80013ADF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainTabBar.storyboard; sourceTree = "<group>"; };
 		573C3140212FA4A80013ADF6 /* ArcTouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArcTouch.xcdatamodel; sourceTree = "<group>"; };
 		573C3142212FA4AA0013ADF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		573C3145212FA4AA0013ADF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +101,58 @@
 		573C3157212FA4AB0013ADF6 /* ArcTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573C315B212FA4AB0013ADF6 /* ArcTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTouchUITests.swift; sourceTree = "<group>"; };
 		573C315D212FA4AB0013ADF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573C3170212FA5580013ADF6 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		573C3172212FA6290013ADF6 /* ServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResponse.swift; sourceTree = "<group>"; };
+		573C3174212FA65A0013ADF6 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		573C3176212FA6A60013ADF6 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		573C3179212FA6EB0013ADF6 /* JSONAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONAny.swift; sourceTree = "<group>"; };
+		573C317C212FA7320013ADF6 /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
+		573C317E212FA7B70013ADF6 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		573C3180212FA84D0013ADF6 /* JSONAny+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONAny+Codable.swift"; sourceTree = "<group>"; };
+		573C3182212FA88A0013ADF6 /* JSONError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONError.swift; sourceTree = "<group>"; };
+		573C3184212FA8CD0013ADF6 /* JSONAny+Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONAny+Initialization.swift"; sourceTree = "<group>"; };
+		573C3186212FABDD0013ADF6 /* MoviesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResponse.swift; sourceTree = "<group>"; };
+		573C3188212FADD20013ADF6 /* URLs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = URLs.plist; sourceTree = "<group>"; };
+		573C318A212FAF110013ADF6 /* URLInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLInfo.swift; sourceTree = "<group>"; };
+		573C318F212FB0FF0013ADF6 /* MoviesServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesServices.swift; sourceTree = "<group>"; };
+		573C3195212FB2C90013ADF6 /* Movies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Movies.storyboard; sourceTree = "<group>"; };
+		573C3197212FB2D40013ADF6 /* MoviesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRouter.swift; sourceTree = "<group>"; };
+		573C3199212FB2F60013ADF6 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		57D05600212FB4EC0000C804 /* ApplicationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationRouter.swift; sourceTree = "<group>"; };
+		57D05603212FB58C0000C804 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		57D05605212FB6C00000C804 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		57D05607212FB7060000C804 /* LoadingConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingConvenience.swift; sourceTree = "<group>"; };
+		57D0560A212FBF850000C804 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		57D0560C212FC0AC0000C804 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		57D0560F2130C4DA0000C804 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		57D056152130D0310000C804 /* TopRatedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedTableViewCell.swift; sourceTree = "<group>"; };
+		57D056172130D0840000C804 /* TopRatedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedCollectionViewCell.swift; sourceTree = "<group>"; };
+		57D056192130D0FB0000C804 /* AnotherMoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherMoviesTableViewCell.swift; sourceTree = "<group>"; };
+		57D0561B2130D1890000C804 /* AnotherMovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherMovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		57D0561D2130DABA0000C804 /* UICollectionViewCellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtensions.swift; sourceTree = "<group>"; };
+		57D0561F2130DB0D0000C804 /* UITableViewCelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCelExtension.swift; sourceTree = "<group>"; };
+		57D056262131A1810000C804 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		57D05628213313260000C804 /* SearchMovies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchMovies.storyboard; sourceTree = "<group>"; };
+		57D0562A213313320000C804 /* DetailsMovies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailsMovies.storyboard; sourceTree = "<group>"; };
+		57D0562D213314D00000C804 /* SearchMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMoviesViewController.swift; sourceTree = "<group>"; };
+		57D0562F2133223E0000C804 /* MoviesSearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		57D0563121332B7B0000C804 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		57D0563A213337050000C804 /* Modals.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Modals.storyboard; sourceTree = "<group>"; };
+		57D0563D213337730000C804 /* BottomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomAlertViewController.swift; sourceTree = "<group>"; };
+		57D0563F213338010000C804 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		57D05642213371300000C804 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		57D05644213374720000C804 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		57D0564A213399220000C804 /* MoviesDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsResponse.swift; sourceTree = "<group>"; };
+		57D0564D2133A72F0000C804 /* VideoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoResponse.swift; sourceTree = "<group>"; };
+		57D0564F2133BF9A0000C804 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		57EB9E61213493AE00615C98 /* UISearchBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
+		6DA7F18F2019EAC4765579DA /* Pods_ArcTouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1899BDF539C3007F44855B9 /* Pods-ArcTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch.release.xcconfig"; sourceTree = "<group>"; };
+		C09A2D194065CB7CE8DFB06C /* Pods_ArcTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3640F2F25B9A4B45D79B14E /* Pods-ArcTouchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouchUITests/Pods-ArcTouchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA3F7A191693D9107D9EE7D4 /* Pods-ArcTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FCF7258FD85627C57A00AF /* Pods_ArcTouchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBABD1CE67BBD79A658BE8A2 /* Pods-ArcTouchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouchTests/Pods-ArcTouchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E1B38685C907FD1E7C65EB /* Pods_ArcTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D373CC9EBA047C09C161637A /* Pods_ArcTouchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54DCF1DE7558D98C8286212 /* Pods_ArcTouchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +190,8 @@
 				573C314F212FA4AA0013ADF6 /* ArcTouchTests */,
 				573C315A212FA4AB0013ADF6 /* ArcTouchUITests */,
 				573C3136212FA4A80013ADF6 /* Products */,
+				EAD3E593A7AF46B18D967E77 /* Pods */,
+				94063F426A79FD20DCE98D37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +208,13 @@
 		573C3137212FA4A80013ADF6 /* ArcTouch */ = {
 			isa = PBXGroup;
 			children = (
-				573C3138212FA4A80013ADF6 /* AppDelegate.swift */,
-				573C313A212FA4A80013ADF6 /* ViewController.swift */,
-				573C313C212FA4A80013ADF6 /* Main.storyboard */,
-				573C3142212FA4AA0013ADF6 /* Assets.xcassets */,
-				573C3144212FA4AA0013ADF6 /* LaunchScreen.storyboard */,
+				573C316F212FA5330013ADF6 /* Services */,
+				573C316E212FA52B0013ADF6 /* Scenes */,
+				573C316D212FA51A0013ADF6 /* Resources */,
+				573C316C212FA5150013ADF6 /* Models */,
+				573C316B212FA50C0013ADF6 /* Conveniences */,
+				573C316A212FA5050013ADF6 /* Commons */,
+				573C3169212FA4FB0013ADF6 /* Application */,
 				573C3147212FA4AA0013ADF6 /* Info.plist */,
 				573C313F212FA4A80013ADF6 /* ArcTouch.xcdatamodeld */,
 			);
@@ -128,6 +239,241 @@
 			path = ArcTouchUITests;
 			sourceTree = "<group>";
 		};
+		573C3169212FA4FB0013ADF6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				573C3138212FA4A80013ADF6 /* AppDelegate.swift */,
+				57D05600212FB4EC0000C804 /* ApplicationRouter.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		573C316A212FA5050013ADF6 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				57D05636213336C70000C804 /* UI */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		573C316B212FA50C0013ADF6 /* Conveniences */ = {
+			isa = PBXGroup;
+			children = (
+				57D0560E2130C4C40000C804 /* FlowLayouts */,
+				57D05609212FBF7B0000C804 /* Singleton */,
+				573C317B212FA71F0013ADF6 /* Extensions */,
+				573C3178212FA6CA0013ADF6 /* JSONAny */,
+				573C3176212FA6A60013ADF6 /* JSON.swift */,
+				57D05607212FB7060000C804 /* LoadingConvenience.swift */,
+			);
+			path = Conveniences;
+			sourceTree = "<group>";
+		};
+		573C316C212FA5150013ADF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				573C3172212FA6290013ADF6 /* ServiceResponse.swift */,
+				573C3174212FA65A0013ADF6 /* ServiceError.swift */,
+				573C3186212FABDD0013ADF6 /* MoviesResponse.swift */,
+				57D0560C212FC0AC0000C804 /* TokenResponse.swift */,
+				57D0564A213399220000C804 /* MoviesDetailsResponse.swift */,
+				57D0564D2133A72F0000C804 /* VideoResponse.swift */,
+				5725BF902134D61600C0FFDD /* GenreResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		573C316D212FA51A0013ADF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				573C3144212FA4AA0013ADF6 /* LaunchScreen.storyboard */,
+				573C3142212FA4AA0013ADF6 /* Assets.xcassets */,
+				573C3188212FADD20013ADF6 /* URLs.plist */,
+				573C318A212FAF110013ADF6 /* URLInfo.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		573C316E212FA52B0013ADF6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				57D056212131A1220000C804 /* Main */,
+				573C3191212FB28F0013ADF6 /* Movies */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		573C316F212FA5330013ADF6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				573C318E212FB0F40013ADF6 /* ArcServices */,
+				573C3170212FA5580013ADF6 /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		573C3178212FA6CA0013ADF6 /* JSONAny */ = {
+			isa = PBXGroup;
+			children = (
+				573C3179212FA6EB0013ADF6 /* JSONAny.swift */,
+				573C3180212FA84D0013ADF6 /* JSONAny+Codable.swift */,
+				573C3182212FA88A0013ADF6 /* JSONError.swift */,
+				573C3184212FA8CD0013ADF6 /* JSONAny+Initialization.swift */,
+			);
+			path = JSONAny;
+			sourceTree = "<group>";
+		};
+		573C317B212FA71F0013ADF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				573C317C212FA7320013ADF6 /* EncodableExtension.swift */,
+				573C317E212FA7B70013ADF6 /* StringExtension.swift */,
+				57D05605212FB6C00000C804 /* Extension+UIView.swift */,
+				57D0561D2130DABA0000C804 /* UICollectionViewCellExtensions.swift */,
+				57D0561F2130DB0D0000C804 /* UITableViewCelExtension.swift */,
+				57D0563121332B7B0000C804 /* UICollectionViewExtension.swift */,
+				57D0563F213338010000C804 /* UIViewControllerExtension.swift */,
+				57D05642213371300000C804 /* UIImageExtension.swift */,
+				57D0564F2133BF9A0000C804 /* DateExtension.swift */,
+				57EB9E61213493AE00615C98 /* UISearchBarExtension.swift */,
+				5725BF922134DB2900C0FFDD /* DictionaryExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		573C318E212FB0F40013ADF6 /* ArcServices */ = {
+			isa = PBXGroup;
+			children = (
+				573C318F212FB0FF0013ADF6 /* MoviesServices.swift */,
+			);
+			path = ArcServices;
+			sourceTree = "<group>";
+		};
+		573C3191212FB28F0013ADF6 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				573C3194212FB2AE0013ADF6 /* ViewControllers */,
+				573C3193212FB2A30013ADF6 /* ViewModels */,
+				573C3192212FB29C0013ADF6 /* Cells */,
+				573C3195212FB2C90013ADF6 /* Movies.storyboard */,
+				573C3197212FB2D40013ADF6 /* MoviesRouter.swift */,
+				57D05628213313260000C804 /* SearchMovies.storyboard */,
+				57D0562A213313320000C804 /* DetailsMovies.storyboard */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		573C3192212FB29C0013ADF6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57D056152130D0310000C804 /* TopRatedTableViewCell.swift */,
+				57D056172130D0840000C804 /* TopRatedCollectionViewCell.swift */,
+				57D056192130D0FB0000C804 /* AnotherMoviesTableViewCell.swift */,
+				57D0561B2130D1890000C804 /* AnotherMovieCollectionViewCell.swift */,
+				57D0562F2133223E0000C804 /* MoviesSearchCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		573C3193212FB2A30013ADF6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				573C3199212FB2F60013ADF6 /* MoviesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		573C3194212FB2AE0013ADF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D05603212FB58C0000C804 /* MoviesViewController.swift */,
+				57D0562D213314D00000C804 /* SearchMoviesViewController.swift */,
+				57D05644213374720000C804 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57D05609212FBF7B0000C804 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				57D0560A212FBF850000C804 /* Session.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		57D0560E2130C4C40000C804 /* FlowLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				57D0560F2130C4DA0000C804 /* UPCarouselFlowLayout.swift */,
+			);
+			path = FlowLayouts;
+			sourceTree = "<group>";
+		};
+		57D056212131A1220000C804 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				573C313C212FA4A80013ADF6 /* MainTabBar.storyboard */,
+				57D056222131A12A0000C804 /* ViewControllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		57D056222131A12A0000C804 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D056262131A1810000C804 /* MainTabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57D05636213336C70000C804 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				57D05637213336D40000C804 /* Modals */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		57D05637213336D40000C804 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				57D05639213336F30000C804 /* ViewsControllers */,
+				57D0563A213337050000C804 /* Modals.storyboard */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		57D05639213336F30000C804 /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D0563D213337730000C804 /* BottomAlertViewController.swift */,
+			);
+			path = ViewsControllers;
+			sourceTree = "<group>";
+		};
+		94063F426A79FD20DCE98D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C09A2D194065CB7CE8DFB06C /* Pods_ArcTouch.framework */,
+				6DA7F18F2019EAC4765579DA /* Pods_ArcTouchTests.framework */,
+				F7FCF7258FD85627C57A00AF /* Pods_ArcTouchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD3E593A7AF46B18D967E77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA3F7A191693D9107D9EE7D4 /* Pods-ArcTouch.debug.xcconfig */,
+				B1899BDF539C3007F44855B9 /* Pods-ArcTouch.release.xcconfig */,
+				04F53DE55532CACC4359133F /* Pods-ArcTouchTests.debug.xcconfig */,
+				FBABD1CE67BBD79A658BE8A2 /* Pods-ArcTouchTests.release.xcconfig */,
+				0F6F74ABF4EDD4B470872047 /* Pods-ArcTouchUITests.debug.xcconfig */,
+				E3640F2F25B9A4B45D79B14E /* Pods-ArcTouchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +481,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 573C3160212FA4AB0013ADF6 /* Build configuration list for PBXNativeTarget "ArcTouch" */;
 			buildPhases = (
+				6B0F93D4461471671FC8783A /* [CP] Check Pods Manifest.lock */,
 				573C3131212FA4A80013ADF6 /* Sources */,
 				573C3132212FA4A80013ADF6 /* Frameworks */,
 				573C3133212FA4A80013ADF6 /* Resources */,
+				6312AC3F512C167924909D0D /* [CP] Embed Pods Frameworks */,
+				EAFD5FD09299E5BBA1DE939B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +501,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 573C3163212FA4AB0013ADF6 /* Build configuration list for PBXNativeTarget "ArcTouchTests" */;
 			buildPhases = (
+				0264D711940B62FF088B2889 /* [CP] Check Pods Manifest.lock */,
 				573C3148212FA4AA0013ADF6 /* Sources */,
 				573C3149212FA4AA0013ADF6 /* Frameworks */,
 				573C314A212FA4AA0013ADF6 /* Resources */,
+				47AD71B05AED036ABCC7E95B /* [CP] Embed Pods Frameworks */,
+				57A206EAA2D0BD5970488127 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +522,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 573C3166212FA4AB0013ADF6 /* Build configuration list for PBXNativeTarget "ArcTouchUITests" */;
 			buildPhases = (
+				3EA5C8C5EF56A994C6038E16 /* [CP] Check Pods Manifest.lock */,
 				573C3153212FA4AB0013ADF6 /* Sources */,
 				573C3154212FA4AB0013ADF6 /* Frameworks */,
 				573C3155212FA4AB0013ADF6 /* Resources */,
+				C7F14553E57C28DA57CDEDFE /* [CP] Embed Pods Frameworks */,
+				4920E8765377BAF8D55890F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +587,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D0563B213337050000C804 /* Modals.storyboard in Resources */,
 				573C3146212FA4AA0013ADF6 /* LaunchScreen.storyboard in Resources */,
 				573C3143212FA4AA0013ADF6 /* Assets.xcassets in Resources */,
-				573C313E212FA4A80013ADF6 /* Main.storyboard in Resources */,
+				573C3189212FADD20013ADF6 /* URLs.plist in Resources */,
+				57D0562B213313320000C804 /* DetailsMovies.storyboard in Resources */,
+				57D05629213313260000C804 /* SearchMovies.storyboard in Resources */,
+				573C313E212FA4A80013ADF6 /* MainTabBar.storyboard in Resources */,
+				573C3196212FB2C90013ADF6 /* Movies.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +614,215 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0264D711940B62FF088B2889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcTouchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA5C8C5EF56A994C6038E16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcTouchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47AD71B05AED036ABCC7E95B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouchTests/Pods-ArcTouchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4920E8765377BAF8D55890F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouchUITests/Pods-ArcTouchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A206EAA2D0BD5970488127 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouchTests/Pods-ArcTouchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6312AC3F512C167924909D0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B0F93D4461471671FC8783A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcTouch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F14553E57C28DA57CDEDFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouchUITests/Pods-ArcTouchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFD5FD09299E5BBA1DE939B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		573C3131212FA4A80013ADF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573C313B212FA4A80013ADF6 /* ViewController.swift in Sources */,
+				57D0561A2130D0FB0000C804 /* AnotherMoviesTableViewCell.swift in Sources */,
+				57D056502133BF9A0000C804 /* DateExtension.swift in Sources */,
+				573C3175212FA65A0013ADF6 /* ServiceError.swift in Sources */,
+				573C317D212FA7320013ADF6 /* EncodableExtension.swift in Sources */,
+				573C3181212FA84D0013ADF6 /* JSONAny+Codable.swift in Sources */,
+				573C3187212FABDD0013ADF6 /* MoviesResponse.swift in Sources */,
+				57D056302133223E0000C804 /* MoviesSearchCollectionViewCell.swift in Sources */,
+				573C317F212FA7B70013ADF6 /* StringExtension.swift in Sources */,
+				57D0564B213399220000C804 /* MoviesDetailsResponse.swift in Sources */,
+				573C318B212FAF110013ADF6 /* URLInfo.swift in Sources */,
+				5725BF912134D61600C0FFDD /* GenreResponse.swift in Sources */,
+				57D056162130D0310000C804 /* TopRatedTableViewCell.swift in Sources */,
+				57D0564E2133A72F0000C804 /* VideoResponse.swift in Sources */,
+				57D0563221332B7B0000C804 /* UICollectionViewExtension.swift in Sources */,
+				57D056202130DB0D0000C804 /* UITableViewCelExtension.swift in Sources */,
+				57D05645213374720000C804 /* DetailsViewController.swift in Sources */,
+				573C3190212FB0FF0013ADF6 /* MoviesServices.swift in Sources */,
+				57D056272131A1810000C804 /* MainTabBarController.swift in Sources */,
+				57EB9E62213493AE00615C98 /* UISearchBarExtension.swift in Sources */,
+				57D05643213371300000C804 /* UIImageExtension.swift in Sources */,
+				573C3177212FA6A60013ADF6 /* JSON.swift in Sources */,
+				57D056182130D0840000C804 /* TopRatedCollectionViewCell.swift in Sources */,
+				573C317A212FA6EB0013ADF6 /* JSONAny.swift in Sources */,
+				573C3171212FA5580013ADF6 /* Service.swift in Sources */,
+				57D0561E2130DABA0000C804 /* UICollectionViewCellExtensions.swift in Sources */,
+				57D05604212FB58C0000C804 /* MoviesViewController.swift in Sources */,
+				5725BF932134DB2900C0FFDD /* DictionaryExtension.swift in Sources */,
 				573C3139212FA4A80013ADF6 /* AppDelegate.swift in Sources */,
+				573C3173212FA6290013ADF6 /* ServiceResponse.swift in Sources */,
+				57D0563E213337730000C804 /* BottomAlertViewController.swift in Sources */,
+				57D05608212FB7060000C804 /* LoadingConvenience.swift in Sources */,
+				57D05640213338010000C804 /* UIViewControllerExtension.swift in Sources */,
+				57D05606212FB6C00000C804 /* Extension+UIView.swift in Sources */,
+				573C319A212FB2F60013ADF6 /* MoviesViewModel.swift in Sources */,
+				573C3183212FA88A0013ADF6 /* JSONError.swift in Sources */,
+				573C3185212FA8CD0013ADF6 /* JSONAny+Initialization.swift in Sources */,
+				57D0560B212FBF850000C804 /* Session.swift in Sources */,
+				57D05601212FB4EC0000C804 /* ApplicationRouter.swift in Sources */,
+				57D0561C2130D1890000C804 /* AnotherMovieCollectionViewCell.swift in Sources */,
 				573C3141212FA4A80013ADF6 /* ArcTouch.xcdatamodeld in Sources */,
+				57D0560D212FC0AC0000C804 /* TokenResponse.swift in Sources */,
+				573C3198212FB2D40013ADF6 /* MoviesRouter.swift in Sources */,
+				57D0562E213314D00000C804 /* SearchMoviesViewController.swift in Sources */,
+				57D056102130C4DA0000C804 /* UPCarouselFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +858,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		573C313C212FA4A80013ADF6 /* Main.storyboard */ = {
+		573C313C212FA4A80013ADF6 /* MainTabBar.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				573C313D212FA4A80013ADF6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainTabBar.storyboard;
 			sourceTree = "<group>";
 		};
 		573C3144212FA4AA0013ADF6 /* LaunchScreen.storyboard */ = {
@@ -432,14 +993,13 @@
 		};
 		573C3161212FA4AB0013ADF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3F7A191693D9107D9EE7D4 /* Pods-ArcTouch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q73RF9QNGH;
 				INFOPLIST_FILE = ArcTouch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -449,14 +1009,13 @@
 		};
 		573C3162212FA4AB0013ADF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1899BDF539C3007F44855B9 /* Pods-ArcTouch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q73RF9QNGH;
 				INFOPLIST_FILE = ArcTouch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -466,16 +1025,13 @@
 		};
 		573C3164212FA4AB0013ADF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F53DE55532CACC4359133F /* Pods-ArcTouchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArcTouchTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -486,16 +1042,13 @@
 		};
 		573C3165212FA4AB0013ADF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBABD1CE67BBD79A658BE8A2 /* Pods-ArcTouchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArcTouchTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,15 +1059,12 @@
 		};
 		573C3167212FA4AB0013ADF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6F74ABF4EDD4B470872047 /* Pods-ArcTouchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArcTouchUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -525,15 +1075,12 @@
 		};
 		573C3168212FA4AB0013ADF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3640F2F25B9A4B45D79B14E /* Pods-ArcTouchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArcTouchUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

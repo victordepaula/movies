@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UiP-xx-syF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search Movies View Controller-->
+        <scene sceneID="bBe-eU-3LO">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="UiP-xx-syF" customClass="SearchMoviesViewController" customModule="ArcTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gKQ-il-iWG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aav-9L-Bop">
+                                <rect key="frame" x="0.0" y="76" width="375" height="591"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="811-8I-rgz">
+                                    <size key="itemSize" width="126" height="123.5"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MoviesSearchCollectionViewCell" id="9vc-XG-i9f" customClass="MoviesSearchCollectionViewCell" customModule="ArcTouch" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="126" height="123.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="126" height="123.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v8G-nh-baO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="126" height="124"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="124" id="OcO-cQ-j0k"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="v8G-nh-baO" firstAttribute="leading" secondItem="9vc-XG-i9f" secondAttribute="leading" id="7ht-z0-w5T"/>
+                                            <constraint firstItem="v8G-nh-baO" firstAttribute="top" secondItem="9vc-XG-i9f" secondAttribute="top" id="Uvy-6k-SC9"/>
+                                            <constraint firstAttribute="trailing" secondItem="v8G-nh-baO" secondAttribute="trailing" id="aRI-od-cU7"/>
+                                            <constraint firstAttribute="bottom" secondItem="v8G-nh-baO" secondAttribute="bottom" id="heR-Pc-PoL"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="movieImageView" destination="v8G-nh-baO" id="rdE-8i-T5u"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <searchBar contentMode="redraw" barStyle="black" placeholder="Procurar Filmes" translatesAutoresizingMaskIntoConstraints="NO" id="S8z-9M-VN8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                                <color key="tintColor" red="0.23921568630000001" green="0.93333333330000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.32941514249999998" green="0.32940736409999999" blue="0.32940888400000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aav-9L-Bop" firstAttribute="leading" secondItem="RpG-J1-6qU" secondAttribute="leading" id="7tO-az-VDZ"/>
+                            <constraint firstItem="S8z-9M-VN8" firstAttribute="top" secondItem="RpG-J1-6qU" secondAttribute="top" id="83w-6O-jeC"/>
+                            <constraint firstItem="RpG-J1-6qU" firstAttribute="trailing" secondItem="S8z-9M-VN8" secondAttribute="trailing" id="NHs-ap-cYn"/>
+                            <constraint firstItem="RpG-J1-6qU" firstAttribute="bottom" secondItem="aav-9L-Bop" secondAttribute="bottom" id="XUz-WT-Xjc"/>
+                            <constraint firstItem="RpG-J1-6qU" firstAttribute="trailing" secondItem="aav-9L-Bop" secondAttribute="trailing" id="bIg-j4-Hxi"/>
+                            <constraint firstItem="S8z-9M-VN8" firstAttribute="leading" secondItem="RpG-J1-6qU" secondAttribute="leading" id="kBy-bV-d9L"/>
+                            <constraint firstItem="aav-9L-Bop" firstAttribute="top" secondItem="S8z-9M-VN8" secondAttribute="bottom" id="tjf-w8-3oV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RpG-J1-6qU"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="collectionView" destination="aav-9L-Bop" id="8Ht-bx-g4N"/>
+                        <outlet property="searchBar" destination="S8z-9M-VN8" id="Pl2-4W-rUS"/>
+                        <outlet property="searchDisplayController" destination="H9G-uj-RU5" id="FNd-bw-U1L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SjO-7W-aNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="H9G-uj-RU5">
+                    <connections>
+                        <outlet property="delegate" destination="UiP-xx-syF" id="l2f-Fb-jKp"/>
+                        <outlet property="searchContentsController" destination="UiP-xx-syF" id="rgH-Dr-Slh"/>
+                        <outlet property="searchResultsDataSource" destination="UiP-xx-syF" id="san-Ng-bad"/>
+                        <outlet property="searchResultsDelegate" destination="UiP-xx-syF" id="1jJ-zn-Jfh"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="-90.400000000000006" y="16.641679160419791"/>
+        </scene>
+    </scenes>
+</document>

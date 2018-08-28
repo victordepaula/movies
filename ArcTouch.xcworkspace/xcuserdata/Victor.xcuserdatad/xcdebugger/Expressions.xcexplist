@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #2 in MoviesViewController.getMoviesSearch(moviesName:):MoviesViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Movies.convertFieldsToDictionary():MoviesResponse.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dictionary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailsViewController.tableView(_:cellForRowAt:):DetailsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MoviesViewController.getMoviesSearch(moviesName:):MoviesViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DetailsViewController.viewWillAppear(_:):DetailsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "movie">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailsViewController.setup():DetailsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MoviesViewController.listGenreMovies(idGenre:genre:):MoviesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "i">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailsViewController.tableView(_:numberOfRowsInSection:):DetailsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Dictionary&lt;&gt;.getElementByIndex(i:):DictionaryExtension.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MoviesViewController.callServicesByGenre():MoviesViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

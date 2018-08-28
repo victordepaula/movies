@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2lI-le-60T">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movies-->
+        <scene sceneID="zVX-g3-TVx">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d2H-eD-Kly" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Movies" id="fjj-Gy-cnP" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="XTb-Rv-J3g"/>
+                </viewControllerPlaceholder>
+            </objects>
+            <point key="canvasLocation" x="-162" y="1348"/>
+        </scene>
+        <!--SearchMovies-->
+        <scene sceneID="7LR-40-kN2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SearchMovies" id="GOw-V0-ILA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zgY-XF-qxK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2p-r9-VF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="660" y="1348"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="NMh-eb-hUr">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pJm-TW-IYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController storyboardIdentifier="MainTabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2lI-le-60T" customClass="MainTabBarController" customModule="ArcTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="centered" id="2ot-Yf-OIg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="I76-xw-nXn" kind="relationship" relationship="viewControllers" id="qhM-V1-d1Y"/>
+                        <segue destination="8hM-6x-Uy0" kind="relationship" relationship="viewControllers" id="tTf-it-tlR"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="217" y="34"/>
+        </scene>
+        <!--Inicio-->
+        <scene sceneID="TMa-7n-jME">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bf9-j8-fqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="I76-xw-nXn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Inicio" image="home" id="Mfl-R2-h13"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QFw-Ce-Gib">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fjj-Gy-cnP" kind="relationship" relationship="rootViewController" id="dvx-Hn-f2e"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-162" y="821"/>
+        </scene>
+        <!--Buscar-->
+        <scene sceneID="gZC-6q-K5w">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HoS-zw-iv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="8hM-6x-Uy0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Buscar" image="search" id="D5X-tt-E7Q"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jso-x3-mDK">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GOw-V0-ILA" kind="relationship" relationship="rootViewController" id="bpk-gF-0OT"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="660" y="821"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home" width="36" height="36"/>
+        <image name="search" width="22" height="22"/>
+    </resources>
+</document>
