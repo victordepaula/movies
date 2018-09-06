@@ -22,13 +22,4 @@ extension Encodable {
             return nil
         }
     }
-    
-    var listValues: Data? {
-        let encoder = JSONEncoder()
-        guard let data = try? encoder.encode(self) else {
-            return nil
-        }
-        return data
-    }
-    
 }

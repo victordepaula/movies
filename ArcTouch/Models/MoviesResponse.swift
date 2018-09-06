@@ -30,5 +30,4 @@ struct Movies:Codable, Equatable {
     var adult:Bool?
     var overview: String?
     var release_date: String?
-    var dictionary: [String : String]? = [String :  String]()
 }

@@ -38,8 +38,6 @@
 		57D05604212FB58C0000C804 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05603212FB58C0000C804 /* MoviesViewController.swift */; };
 		57D05606212FB6C00000C804 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05605212FB6C00000C804 /* Extension+UIView.swift */; };
 		57D05608212FB7060000C804 /* LoadingConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D05607212FB7060000C804 /* LoadingConvenience.swift */; };
-		57D0560B212FBF850000C804 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0560A212FBF850000C804 /* Session.swift */; };
-		57D0560D212FC0AC0000C804 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0560C212FC0AC0000C804 /* TokenResponse.swift */; };
 		57D056102130C4DA0000C804 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0560F2130C4DA0000C804 /* UPCarouselFlowLayout.swift */; };
 		57D056162130D0310000C804 /* TopRatedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D056152130D0310000C804 /* TopRatedTableViewCell.swift */; };
 		57D056182130D0840000C804 /* TopRatedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D056172130D0840000C804 /* TopRatedCollectionViewCell.swift */; };
@@ -61,7 +59,6 @@
 		57D0564B213399220000C804 /* MoviesDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0564A213399220000C804 /* MoviesDetailsResponse.swift */; };
 		57D0564E2133A72F0000C804 /* VideoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0564D2133A72F0000C804 /* VideoResponse.swift */; };
 		57D056502133BF9A0000C804 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0564F2133BF9A0000C804 /* DateExtension.swift */; };
-		57EB9E62213493AE00615C98 /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB9E61213493AE00615C98 /* UISearchBarExtension.swift */; };
 		C54DCF1DE7558D98C8286212 /* Pods_ArcTouchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FCF7258FD85627C57A00AF /* Pods_ArcTouchUITests.framework */; };
 		D373CC9EBA047C09C161637A /* Pods_ArcTouchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA7F18F2019EAC4765579DA /* Pods_ArcTouchTests.framework */; };
 /* End PBXBuildFile section */
@@ -122,8 +119,6 @@
 		57D05603212FB58C0000C804 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		57D05605212FB6C00000C804 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		57D05607212FB7060000C804 /* LoadingConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingConvenience.swift; sourceTree = "<group>"; };
-		57D0560A212FBF850000C804 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		57D0560C212FC0AC0000C804 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
 		57D0560F2130C4DA0000C804 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 		57D056152130D0310000C804 /* TopRatedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedTableViewCell.swift; sourceTree = "<group>"; };
 		57D056172130D0840000C804 /* TopRatedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -145,7 +140,6 @@
 		57D0564A213399220000C804 /* MoviesDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsResponse.swift; sourceTree = "<group>"; };
 		57D0564D2133A72F0000C804 /* VideoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoResponse.swift; sourceTree = "<group>"; };
 		57D0564F2133BF9A0000C804 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		57EB9E61213493AE00615C98 /* UISearchBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
 		6DA7F18F2019EAC4765579DA /* Pods_ArcTouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1899BDF539C3007F44855B9 /* Pods-ArcTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch.release.xcconfig"; sourceTree = "<group>"; };
 		C09A2D194065CB7CE8DFB06C /* Pods_ArcTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -260,7 +254,6 @@
 			isa = PBXGroup;
 			children = (
 				57D0560E2130C4C40000C804 /* FlowLayouts */,
-				57D05609212FBF7B0000C804 /* Singleton */,
 				573C317B212FA71F0013ADF6 /* Extensions */,
 				573C3178212FA6CA0013ADF6 /* JSONAny */,
 				573C3176212FA6A60013ADF6 /* JSON.swift */,
@@ -275,7 +268,6 @@
 				573C3172212FA6290013ADF6 /* ServiceResponse.swift */,
 				573C3174212FA65A0013ADF6 /* ServiceError.swift */,
 				573C3186212FABDD0013ADF6 /* MoviesResponse.swift */,
-				57D0560C212FC0AC0000C804 /* TokenResponse.swift */,
 				57D0564A213399220000C804 /* MoviesDetailsResponse.swift */,
 				57D0564D2133A72F0000C804 /* VideoResponse.swift */,
 				5725BF902134D61600C0FFDD /* GenreResponse.swift */,
@@ -335,7 +327,6 @@
 				57D0563F213338010000C804 /* UIViewControllerExtension.swift */,
 				57D05642213371300000C804 /* UIImageExtension.swift */,
 				57D0564F2133BF9A0000C804 /* DateExtension.swift */,
-				57EB9E61213493AE00615C98 /* UISearchBarExtension.swift */,
 				5725BF922134DB2900C0FFDD /* DictionaryExtension.swift */,
 			);
 			path = Extensions;
@@ -391,14 +382,6 @@
 				57D05644213374720000C804 /* DetailsViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		57D05609212FBF7B0000C804 /* Singleton */ = {
-			isa = PBXGroup;
-			children = (
-				57D0560A212FBF850000C804 /* Session.swift */,
-			);
-			path = Singleton;
 			sourceTree = "<group>";
 		};
 		57D0560E2130C4C40000C804 /* FlowLayouts */ = {
@@ -797,7 +780,6 @@
 				57D05645213374720000C804 /* DetailsViewController.swift in Sources */,
 				573C3190212FB0FF0013ADF6 /* MoviesServices.swift in Sources */,
 				57D056272131A1810000C804 /* MainTabBarController.swift in Sources */,
-				57EB9E62213493AE00615C98 /* UISearchBarExtension.swift in Sources */,
 				57D05643213371300000C804 /* UIImageExtension.swift in Sources */,
 				573C3177212FA6A60013ADF6 /* JSON.swift in Sources */,
 				57D056182130D0840000C804 /* TopRatedCollectionViewCell.swift in Sources */,
@@ -815,11 +797,9 @@
 				573C319A212FB2F60013ADF6 /* MoviesViewModel.swift in Sources */,
 				573C3183212FA88A0013ADF6 /* JSONError.swift in Sources */,
 				573C3185212FA8CD0013ADF6 /* JSONAny+Initialization.swift in Sources */,
-				57D0560B212FBF850000C804 /* Session.swift in Sources */,
 				57D05601212FB4EC0000C804 /* ApplicationRouter.swift in Sources */,
 				57D0561C2130D1890000C804 /* AnotherMovieCollectionViewCell.swift in Sources */,
 				573C3141212FA4A80013ADF6 /* ArcTouch.xcdatamodeld in Sources */,
-				57D0560D212FC0AC0000C804 /* TokenResponse.swift in Sources */,
 				573C3198212FB2D40013ADF6 /* MoviesRouter.swift in Sources */,
 				57D0562E213314D00000C804 /* SearchMoviesViewController.swift in Sources */,
 				57D056102130C4DA0000C804 /* UPCarouselFlowLayout.swift in Sources */,
@@ -999,7 +979,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q73RF9QNGH;
 				INFOPLIST_FILE = ArcTouch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1015,7 +998,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q73RF9QNGH;
 				INFOPLIST_FILE = ArcTouch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1031,7 +1017,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArcTouchTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1048,7 +1038,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArcTouchTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1064,7 +1058,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArcTouchUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1080,7 +1078,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArcTouchUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arcTouch.br.ArcTouchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
