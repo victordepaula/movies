@@ -22,7 +22,7 @@
         <!--Bottom Alert View Controller-->
         <scene sceneID="vN8-z2-Wsg">
             <objects>
-                <viewController storyboardIdentifier="BottomAlertController" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Duc-nt-qj2" customClass="BottomAlertViewController" customModule="ArcTouch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BottomAlertViewController" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Duc-nt-qj2" customClass="BottomAlertViewController" customModule="ArcTouch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gZU-Gv-ohN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +33,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yYD-eb-CG7" userLabel="Buttons Stack View">
                                         <rect key="frame" x="0.0" y="79" width="375" height="44"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwY-9E-ttU" customClass="AccentButton" customModule="BIIS_Usuario" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwY-9E-ttU" customClass="AccentButton" customModule="ArcTouch" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="44"/>
                                                 <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="15"/>
                                                 <state key="normal" title="Left Button">
@@ -43,7 +43,7 @@
                                                     <action selector="leftButtonTapped:" destination="Duc-nt-qj2" eventType="touchUpInside" id="ebY-SB-PdV"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1f-Un-3zW" customClass="AccentButton" customModule="BIIS_Usuario" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1f-Un-3zW" customClass="AccentButton" customModule="ArcTouch" customModuleProvider="target">
                                                 <rect key="frame" x="187.5" y="0.0" width="187.5" height="44"/>
                                                 <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="15"/>
                                                 <state key="normal" title="Right Button">
@@ -58,7 +58,7 @@
                                             <constraint firstAttribute="height" constant="44" id="294-yD-VNa"/>
                                         </constraints>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="BRC-8P-Sgg" customClass="LightLabel" customModule="BIIS_Usuario" customModuleProvider="target">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="BRC-8P-Sgg" customClass="LightLabel" customModule="ArcTouch" customModuleProvider="target">
                                         <rect key="frame" x="10" y="0.0" width="355" height="64"/>
                                         <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="17"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
