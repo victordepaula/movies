@@ -13,11 +13,6 @@ class Service {
     
     // MARK: - Properties
     static let shared = Service()
-    
-    // oAuth
-    private var _token: String?
-    var x_uid: String?
-    var currentMutableToken: String?
     private let timeOut = 20.0
     
     var token: String?
@@ -33,20 +28,6 @@ class Service {
     var defaultHeaders: [String: String] = ["content-type": "application/json"]
     
     // MARK: - Misc
-    
-    func request(httpMethod: HTTPMethod, url: URL, payload: Data? = nil, auth: Bool = true) -> URLRequest {
-        var request = URLRequest(url: url)
-        request.httpMethod = httpMethod.rawValue
-        request.allHTTPHeaderFields = defaultHeaders
-        request.timeoutInterval = timeOut
-        if let dict = payload {
-            request.httpBody = dict
-        }
-
-        return request
-    }
-    
-    
     
     func request(httpMethod: HTTPMethod, url: URL, payload: [String: Any]? = nil,
                  headers: [String:String]? = nil, auth: Bool = true) -> URLRequest {

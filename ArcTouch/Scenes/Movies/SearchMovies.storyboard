@@ -35,7 +35,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="126" height="123.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v8G-nh-baO">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v8G-nh-baO">
                                                     <rect key="frame" x="0.0" y="0.0" width="126" height="124"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="124" id="OcO-cQ-j0k"/>
@@ -61,10 +61,10 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <searchBar contentMode="redraw" barStyle="black" placeholder="Procurar Filmes" translatesAutoresizingMaskIntoConstraints="NO" id="S8z-9M-VN8">
+                            <searchBar contentMode="redraw" preservesSuperviewLayoutMargins="YES" barStyle="black" placeholder="Procurar Filmes" translatesAutoresizingMaskIntoConstraints="NO" id="S8z-9M-VN8">
                                 <rect key="frame" x="0.0" y="20" width="375" height="56"/>
                                 <color key="tintColor" red="0.23921568630000001" green="0.93333333330000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="barTintColor" red="0.32941514249999998" green="0.32940736409999999" blue="0.32940888400000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="barTintColor" red="0.17254901960784313" green="0.17254901960784313" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <scopeButtonTitles>
                                     <string>Title</string>

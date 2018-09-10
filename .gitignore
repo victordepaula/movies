@@ -18,6 +18,7 @@ xcuserdata
 Podfile.lock
 Pods/*
 *.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
 archives/
 build/
 build/*
