@@ -1,12 +1,12 @@
 PODS:
   - IQKeyboardManagerSwift (5.0.0)
-  - PureLayout (3.0.2)
+  - PureLayout (3.1.2)
   - RxCocoa (4.0.0):
     - RxSwift (~> 4.0)
   - RxSwift (4.0.0)
-  - SDWebImage (4.4.1):
-    - SDWebImage/Core (= 4.4.1)
-  - SDWebImage/Core (4.4.1)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
   - SwiftKeychainWrapper (3.0.1)
 
 DEPENDENCIES:
@@ -19,12 +19,12 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
-  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
   RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
   RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
-  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
 
-PODFILE CHECKSUM: 9f51ad6c9cb87ee39372aba43cabe7f49263aa22
+PODFILE CHECKSUM: 727caf361f3d73d90d343337fecda51ef20e3d34
 
 COCOAPODS: 1.4.0
